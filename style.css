@@ -1,0 +1,224 @@
+body,h1,h2,h3,h4,h5,h6,p{
+    font-family: 'Work Sans', 'sans-serif';
+}
+img{
+    max-width: 100%;
+}
+/* navbar */
+.img-logo {
+    width: 80px;
+    height: auto;
+    padding-right: 10px;
+}
+.nav-menu .nav-link {
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+}
+/* slider */
+.slider-sec{
+    background: url(./pexels-pixabay-372098.jpg) no-repeat center center;
+    background-size: cover;
+    padding: 140px 0;
+    position: relative;
+    z-index: 1;
+}
+.slider-sec::after{
+    content: "";
+    top: 0;
+    left: 0;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background: rgba(0, 0, 0,.6);
+    z-index: -1;
+}
+
+.slider-sec h4 {
+    font-weight: 300;
+    font-size: 25px;
+}
+.slider-sec h2 {
+    font-weight: 500;
+    font-size: 45px;
+}
+.slider-sec form {
+    margin-top: 70px;
+}
+.slider-sec .form-control {
+    padding: 14px 20px;
+}
+.slider-sec .btn{
+    padding: 14px 20px;
+}
+/* about-sec */
+.about-sec{
+    background: rgb(244, 251, 255);
+}
+.about-text-left{}
+.about-text-left h1{
+    font-size: 45px;
+    margin-bottom: 25px;
+}
+.about-text-left p {
+    font-size: 20px;
+    line-height: 1.9rem;
+}
+/* feature-sec */
+.feature-title{}
+.feature-title h1 {
+    font-size: 50px;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+.feature-title p {
+    font-size: 27px;
+    font-weight: 300;
+    color: #767676;
+    margin-bottom: 40px;
+}
+.feature-item{
+    height: 250px;
+    box-shadow: 2.5px 4.33px 30px 0 rgb(64 87 191 / 20%);
+}
+.left-img-sec {
+    width: 40%;
+    overflow: hidden;
+    border-radius: 5px 0 0 5px;
+}
+.left-img-sec img {
+    height: 100%;
+    width: auto !important;
+    max-width: inherit;
+    position: relative;
+    left: -125px;
+}
+.right-text-sec{
+    width: 60%;
+    padding-left: 29px;
+}
+/* portfolio-sec */
+.portfolio-sec{}
+.portfolio-item a{
+    display: block;
+    position: relative;
+}
+.portfolio-item a::after{
+    content: "";
+    left: 0;
+    top: 0;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background: rgba(98, 120, 223,.6);
+    opacity: 0;
+    visibility: hidden;
+    transition: .3s;
+}
+.portfolio-item:hover a::after{
+    opacity: 1;
+    visibility: visible;
+}
+/* package-sec */
+.package-sec{
+    background: #f6f7ff;
+}
+.package-title h1 {
+    font-size: 55px;
+    font-weight: 400;
+}
+.package-title p {
+    font-size: 24px;
+    font-weight: 300;
+    color: #767676;
+    margin-top: 20px;
+}
+
+.package-item {
+    background: #ffffff;
+    padding: 50px;
+    
+    box-shadow: 2.5px 4.33px 30px 0 rgb(64 87 191 / 20%);
+}
+.package-item h1 {
+    font-size: 45px;
+}
+.package-item h5 {
+    font-weight: 300;
+    font-size: 23px;
+}
+.package-item ul {
+    padding: 20px 0;
+    font-size: 20px;
+    list-style: none;
+}
+.package-item ul li {
+    margin-bottom: 15px;
+    color: #767676;
+}
+.package-item ul li span {
+    color: #6278df;
+    font-weight: bold;
+    display: inline-block;
+    font-size: 25px;
+    width: 40px;
+}
+.package-item-button{}
+.package-item-button a {
+    border: 2px solid #6278df;
+    color: #6278df;
+    padding: 13px 40px;
+    font-size: 22px;
+    font-weight: 600;
+    box-shadow: 2.5px 4.33px 30px 0 rgb(64 87 191 / 20%);
+}
+/* testimonial */
+.author-info {
+    width: 210px;
+    margin: auto;
+}
+.author-info img {
+    width: 70px;
+    height: 65px;
+    margin-right: 15px;
+}
+.testimonial-item i {
+    font-size: 75px;
+    color: #d8d8d861;
+    margin: 15px 0;
+}
+/* about-sec */
+.about-item {
+    margin-top: 100px;
+}
+.about-item img {
+    width: 145px;
+    height: 135px;
+    margin-left: 17px;
+    margin-top: -85px;
+    box-shadow: 2.5px 4.33px 30px 0 rgb(64 87 191 / 30%);
+}
+.about-item .card-body {
+    margin-left: 20px;
+}
+.card-body p {
+    font-size: 14px;
+    color: #767676;
+}
+/* app download */
+.fa-android:before {
+    content: "\f17b";
+}
+.app-download-item a {
+    font-size: 25px;
+    font-weight: 600;
+    padding: 15px 40px;
+    margin: 0 15px;
+    box-shadow: 0 2px 30px -6px #2196f39c;
+}
+.app-download-img img {
+    width: 540px;
+    height: auto;
+}
+footer{
+    background: rgb(235, 235, 235);
+}
